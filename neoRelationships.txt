@@ -220,16 +220,3 @@ MATCH (od31:Order_Details {id: 17}), (oi31:Order_Items {id: 31}) CREATE (od31)-[
 MATCH (od32:Order_Details {id: 18}), (oi32:Order_Items {id: 32}) CREATE (od32)-[:CONTAINS]->(oi32);
 MATCH (od33:Order_Details {id: 19}), (oi33:Order_Items {id: 33}) CREATE (od33)-[:CONTAINS]->(oi33);
 MATCH (od34:Order_Details {id: 19}), (oi34:Order_Items {id: 34}) CREATE (od34)-[:CONTAINS]->(oi34);
-
-
-MATCH (u:Store_User) REMOVE u.id;
-MATCH (pc:Product_Category) REMOVE pc.id;
-MATCH (p:Product) REMOVE p.id;
-MATCH (dis:Discount) REMOVE dis.id;
-MATCH (c:Cart_Item) REMOVE c.id;
-MATCH (s:Shopping_Session) REMOVE s.id;
-MATCH (o:Order_Details) REMOVE o.id;
-MATCH (pd:Payment_Details) REMOVE pd.id;
-MATCH (e:Employees) REMOVE e.id;
-MATCH (d:Departments) REMOVE d.id;
-MATCH (a:Addresses) REMOVE a.id;
