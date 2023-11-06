@@ -4,9 +4,10 @@
 The goal of this project was to migrate the original MySQL Database schema to NoSQL Databases (MongoDB && Neo4J) and comparing both approaches.
 
 ## :handshake: Group members: 
+- [Rui Guilherme Monteiro](https://github.com/rushmetra)    
 - [Rodrigo Rodrigues](https://github.com/webst2r)  
 - [José João Gonçalves](https://github.com/jjgonc)   
-- [Rui Monteiro](https://github.com/rushmetra)    
+
 
 ## Final Grade:
 16/20
